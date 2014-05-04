@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>ReSharper.AnnotationsPack</id>
+    <version>$version$</version>
+    <authors>Igal Tabachnik</authors>
+    <owners>Igal Tabachnik</owners>
+    <title>Annotations Pack</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://raw.github.com/hmemcpy/ReSharper.AnnotationsPack/master/License.txt</licenseUrl>
+    <description>A collection of External Annotations for popular 3rd party libraries</description>
+    <projectUrl>https://github.com/hmemcpy/ReSharper.AnnotationsPack</projectUrl>
+    <iconUrl>https://raw.github.com/hmemcpy/ReSharper.AnnotationsPack/master/logo.png</iconUrl>
+    <copyright>Copyright &#x00A9; 2014 Igal Tabachnik</copyright>
+    <tags>resharper external annotations attributes null notnull canbenull</tags>
+    <dependencies>
+      <dependency id="Resharper" version="[8.2,)"/>
+    </dependencies>
+    <releaseNotes>
+Supported libraries:
+
+&#8226; LiteGuard (https://github.com/liteguard/liteguard)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="Annotations\**\*.*" target="ReSharper\vAny\annotations"/>
+  </files>
+</package>
