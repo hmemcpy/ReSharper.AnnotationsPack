@@ -1,0 +1,46 @@
+<assembly name="LiteGuard">
+  <member name="M:LiteGuard.Guard.AgainstNullArgument``1(System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>argument:null=&gt;halt</argument>
+    </attribute>
+    <parameter name="parameterName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+    <parameter name="argument">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:LiteGuard.Guard.AgainstNullArgumentIfNullable``1(System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>argument:null=&gt;halt</argument>
+    </attribute>
+    <parameter name="parameterName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+    <parameter name="argument">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:LiteGuard.Guard.AgainstNullArgumentProperty``1(System.String,System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>argumentProperty:null=&gt;halt</argument>
+    </attribute>
+    <parameter name="parameterName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+    <parameter name="argumentProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:LiteGuard.Guard.AgainstNullArgumentPropertyIfNullable``1(System.String,System.String,``0)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>argumentProperty:null=&gt;halt</argument>
+    </attribute>
+    <parameter name="parameterName">
+      <attribute ctor="M:JetBrains.Annotations.InvokerParameterNameAttribute.#ctor" />
+    </parameter>
+    <parameter name="argumentProperty">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+</assembly>
