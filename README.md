@@ -6,7 +6,7 @@ ReSharper largely relies on heuristics to perform code analysis, detect issues a
 
 For an overview of Annotations, you can watch a webinar I recorded with JetBrains called [ReSharper Secrets](http://blog.jetbrains.com/dotnet/2014/02/18/webinar-recording-and-qa-resharper-secrets-with-igal-tabachnik/), which describes annotations and their use.
 
-This project is a collection of external XML annotations for various (open-source) frameworks and libraries that provide ReSharper with better support for those libraries. For a complete list of supported libraries, please check the [wiki](wiki).
+This project is a collection of external XML annotations for various (open-source) frameworks and libraries that provide ReSharper with better support for those libraries. For a complete list of supported libraries, please check the [wiki](../../wiki).
 
 ## Contributing
 
