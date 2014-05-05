@@ -4,7 +4,7 @@
     <id>ReSharper.AnnotationsPack</id>
     <version>$version$</version>
     <authors>Igal Tabachnik</authors>
-    <owners>Igal Tabachnik</owners>
+    <owners>Public Domain</owners>
     <title>Annotations Pack</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>https://raw.github.com/hmemcpy/ReSharper.AnnotationsPack/master/License.txt</licenseUrl>
